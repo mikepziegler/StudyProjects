@@ -1,0 +1,15 @@
+rootProject.name = 'StudyProjects'
+
+include 'code:Example-Threads'
+findProject(':code:Example-Threads')?.name = 'Example-Threads'
+include 'code:Example-MVC'
+findProject(':code:Example-MVC')?.name = 'Example-MVC'
+include 'code:Example-MockTesting'
+findProject(':code:Example-MockTesting')?.name = 'Example-MockTesting'
+include 'code:Example-JavaFX'
+findProject(':code:Example-JavaFX')?.name = 'Example-JavaFX'
+include 'code:Example-IO'
+findProject(':code:Example-IO')?.name = 'Example-IO'
+include 'code:Example-FunctionalProgramming'
+findProject(':code:Example-FunctionalProgramming')?.name = 'Example-FunctionalProgramming'
+
